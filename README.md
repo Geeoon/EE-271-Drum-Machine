@@ -1,5 +1,5 @@
 # EE 271 Drum Machine
-The drum machine I made for EE 271 at the University of Washington.
+The drum machine I made for EE 271 at the University of Washington for the DE1-SoC.
 
 Also contains two synths.
 
