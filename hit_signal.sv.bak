@@ -1,0 +1,8 @@
+module hit_signal(CLOCK_50, reset, frequency, attack);
+	input logic CLOCK_50, reset;
+	output logic [23:0] signal_out;
+endmodule
+
+module hit_sine_testbench();
+
+endmodule

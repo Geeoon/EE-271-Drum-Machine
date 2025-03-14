@@ -1,0 +1,5 @@
+module input_airlock(CLOCK_50, in, out);
+	input logic CLOCK_50, in;
+	output logic out;
+	
+

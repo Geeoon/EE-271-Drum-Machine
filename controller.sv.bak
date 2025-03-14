@@ -1,0 +1,3 @@
+module controller(CLOCK_50, reset, );
+
+endmodule

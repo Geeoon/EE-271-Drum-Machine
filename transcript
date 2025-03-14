@@ -1,0 +1,1672 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do wolfson.do
+# 0
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/../../dspba/Libraries/vhdl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:12 on Mar 07,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv ./activate_flop.sv ./clock_divider.sv ./controller.sv ./counter.sv ./frequency_table.sv ./hit_signal.sv ./input_airlock.sv ./input_sanitize.sv ./kick_hit.sv ./kick_lookup.sv ./mgmt_kids_lead.sv ./period_table.sv ./sawtooth_generator.sv ./seg7.sv ./seg7two.sv ./sine_generator.sv ./sine_lookup.sv ./snare_hit.sv ./snare_lookup.sv ./square_generator.sv ./triangle_generator.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module activate_flop
+# -- Compiling module clock_divider
+# -- Compiling module controller
+# ** Warning: ./controller.sv(61): (vlog-2597) '3200000000' is being treated as 32-bit signed integer and will overflow.
+# -- Compiling module controller_testbench
+# -- Compiling module counter
+# -- Compiling module counter_testbench
+# -- Compiling module frequency_table
+# -- Compiling module hit_signal
+# -- Compiling module hit_signal_testbench
+# -- Compiling module input_airlock
+# -- Compiling module input_airlock_testbench
+# -- Compiling module input_sanitize
+# -- Compiling module kick_hit
+# -- Compiling module kick_hit_testbench
+# -- Compiling module kick_lookup
+# -- Compiling module mgmt_kids_lead
+# -- Compiling module period_table
+# -- Compiling module sawtooth_generator
+# -- Compiling module sawtooth_generator_testbench
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# -- Compiling module seg7two
+# -- Compiling module seg7two_testbench
+# -- Compiling module sine_generator
+# -- Compiling module sine_generator_testbench
+# -- Compiling module sine_lookup
+# -- Compiling module snare_hit
+# -- Compiling module snare_lookup
+# -- Compiling module square_generator
+# -- Compiling module square_generator_testbench
+# -- Compiling module triangle_generator
+# -- Compiling module triangle_generator_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	clock_divider
+# 	controller_testbench
+# 	counter_testbench
+# 	frequency_table
+# 	hit_signal_testbench
+# 	input_airlock_testbench
+# 	kick_hit_testbench
+# 	mgmt_kids_lead
+# 	sawtooth_generator_testbench
+# 	seg7_testbench
+# 	seg7two_testbench
+# 	sine_generator_testbench
+# 	square_generator_testbench
+# 	triangle_generator_testbench
+# End time: 07:22:17 on Mar 07,2025, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:17 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator.v 
+# -- Compiling module xck_generator
+# 
+# Top level modules:
+# 	xck_generator
+# End time: 07:22:20 on Mar 07,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:20 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator/xck_generator_0002.v 
+# -- Compiling module xck_generator_0002
+# 
+# Top level modules:
+# 	xck_generator_0002
+# End time: 07:22:21 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:21 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Bit_Counter.v 
+# -- Compiling module Altera_UP_Audio_Bit_Counter
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Bit_Counter
+# End time: 07:22:21 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:21 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_In_Deserializer.v 
+# -- Compiling module Altera_UP_Audio_In_Deserializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_In_Deserializer
+# End time: 07:22:21 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:21 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Out_Serializer.v 
+# -- Compiling module Altera_UP_Audio_Out_Serializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Out_Serializer
+# End time: 07:22:22 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:22 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Clock_Edge.v 
+# -- Compiling module Altera_UP_Clock_Edge
+# 
+# Top level modules:
+# 	Altera_UP_Clock_Edge
+# End time: 07:22:22 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:22 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C.v 
+# -- Compiling module Altera_UP_I2C
+# 
+# Top level modules:
+# 	Altera_UP_I2C
+# End time: 07:22:23 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:23 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_AV_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_AV_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_AV_Auto_Initialize
+# End time: 07:22:23 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:23 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_DC_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_DC_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_DC_Auto_Initialize
+# End time: 07:22:23 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:23 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_LCM_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_LCM_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_LCM_Auto_Initialize
+# End time: 07:22:24 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:24 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Slow_Clock_Generator.v 
+# -- Compiling module Altera_UP_Slow_Clock_Generator
+# 
+# Top level modules:
+# 	Altera_UP_Slow_Clock_Generator
+# End time: 07:22:24 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:24 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_SYNC_FIFO.v 
+# -- Compiling module Altera_UP_SYNC_FIFO
+# 
+# Top level modules:
+# 	Altera_UP_SYNC_FIFO
+# End time: 07:22:24 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:24 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_and_video_config.v 
+# -- Compiling module audio_and_video_config
+# ** Warning: ./starterkit/audio_and_video_config.v(75): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	audio_and_video_config
+# End time: 07:22:25 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:25 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 07:22:25 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:22:25 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_driver.sv 
+# -- Compiling module audio_driver
+# 
+# Top level modules:
+# 	audio_driver
+# End time: 07:22:25 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:22:26 on Mar 07,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.kick_hit
+# Loading work.input_airlock
+# Loading work.counter
+# Loading work.kick_lookup
+# Loading work.snare_hit
+# Loading work.snare_lookup
+# Loading work.square_generator
+# Loading work.period_table
+# Loading work.seg7
+# Loading work.input_sanitize
+# Loading work.controller
+# Loading work.activate_flop
+# Loading work.audio_driver
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.scfifo
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.Altera_UP_Audio_Out_Serializer
+# ** Warning: (vsim-3015) ./kick_hit.sv(14): [PCDPC] - Port size (16) does not match connection size (24) for port 'out'. The port definition is at: ./kick_lookup.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/kick/lookup_table File: ./kick_lookup.sv
+# ** Warning: (vsim-3015) ./snare_hit.sv(12): [PCDPC] - Port size (16) does not match connection size (24) for port 'out'. The port definition is at: ./snare_lookup.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/snare/lookup_table File: ./snare_lookup.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(43): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(43): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth/square_counter File: ./counter.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(44): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2 File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(44): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2/square_counter File: ./counter.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(46): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_inbeat File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(47): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_ones File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(48): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_tens File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(49): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_hundreds File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'enabled'. The port definition is at: ./controller.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/instrument_controller File: ./controller.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'activate'. The port definition is at: ./activate_flop.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/activate_logic File: ./activate_flop.sv
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 35580 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: geeoon  Hostname: EE-361PC08  ProcessID: 25772
+#           Attempting to use alternate WLF file "./wlftvx5nd6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvx5nd6
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do wolfson.do
+# 0
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/../../dspba/Libraries/vhdl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:01 on Mar 07,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv ./activate_flop.sv ./clock_divider.sv ./controller.sv ./counter.sv ./frequency_table.sv ./hit_signal.sv ./input_airlock.sv ./input_sanitize.sv ./kick_hit.sv ./kick_lookup.sv ./mgmt_kids_lead.sv ./period_table.sv ./sawtooth_generator.sv ./seg7.sv ./seg7two.sv ./sine_generator.sv ./sine_lookup.sv ./snare_hit.sv ./snare_lookup.sv ./square_generator.sv ./triangle_generator.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module activate_flop
+# -- Compiling module clock_divider
+# -- Compiling module controller
+# ** Warning: ./controller.sv(61): (vlog-2597) '3200000000' is being treated as 32-bit signed integer and will overflow.
+# -- Compiling module controller_testbench
+# -- Compiling module counter
+# -- Compiling module counter_testbench
+# -- Compiling module frequency_table
+# -- Compiling module hit_signal
+# -- Compiling module hit_signal_testbench
+# -- Compiling module input_airlock
+# -- Compiling module input_airlock_testbench
+# -- Compiling module input_sanitize
+# -- Compiling module kick_hit
+# -- Compiling module kick_hit_testbench
+# -- Compiling module kick_lookup
+# -- Compiling module mgmt_kids_lead
+# -- Compiling module period_table
+# -- Compiling module sawtooth_generator
+# -- Compiling module sawtooth_generator_testbench
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# -- Compiling module seg7two
+# -- Compiling module seg7two_testbench
+# -- Compiling module sine_generator
+# -- Compiling module sine_generator_testbench
+# -- Compiling module sine_lookup
+# -- Compiling module snare_hit
+# -- Compiling module snare_lookup
+# -- Compiling module square_generator
+# -- Compiling module square_generator_testbench
+# -- Compiling module triangle_generator
+# -- Compiling module triangle_generator_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	clock_divider
+# 	controller_testbench
+# 	counter_testbench
+# 	frequency_table
+# 	hit_signal_testbench
+# 	input_airlock_testbench
+# 	kick_hit_testbench
+# 	mgmt_kids_lead
+# 	sawtooth_generator_testbench
+# 	seg7_testbench
+# 	seg7two_testbench
+# 	sine_generator_testbench
+# 	square_generator_testbench
+# 	triangle_generator_testbench
+# End time: 07:25:04 on Mar 07,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:04 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator.v 
+# -- Compiling module xck_generator
+# 
+# Top level modules:
+# 	xck_generator
+# End time: 07:25:04 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:04 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator/xck_generator_0002.v 
+# -- Compiling module xck_generator_0002
+# 
+# Top level modules:
+# 	xck_generator_0002
+# End time: 07:25:04 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:04 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Bit_Counter.v 
+# -- Compiling module Altera_UP_Audio_Bit_Counter
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Bit_Counter
+# End time: 07:25:05 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:05 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_In_Deserializer.v 
+# -- Compiling module Altera_UP_Audio_In_Deserializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_In_Deserializer
+# End time: 07:25:06 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:06 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Out_Serializer.v 
+# -- Compiling module Altera_UP_Audio_Out_Serializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Out_Serializer
+# End time: 07:25:07 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:07 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Clock_Edge.v 
+# -- Compiling module Altera_UP_Clock_Edge
+# 
+# Top level modules:
+# 	Altera_UP_Clock_Edge
+# End time: 07:25:07 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:07 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C.v 
+# -- Compiling module Altera_UP_I2C
+# 
+# Top level modules:
+# 	Altera_UP_I2C
+# End time: 07:25:07 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:07 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_AV_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_AV_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_AV_Auto_Initialize
+# End time: 07:25:08 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:08 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_DC_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_DC_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_DC_Auto_Initialize
+# End time: 07:25:08 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:08 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_LCM_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_LCM_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_LCM_Auto_Initialize
+# End time: 07:25:08 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:08 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Slow_Clock_Generator.v 
+# -- Compiling module Altera_UP_Slow_Clock_Generator
+# 
+# Top level modules:
+# 	Altera_UP_Slow_Clock_Generator
+# End time: 07:25:09 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:09 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_SYNC_FIFO.v 
+# -- Compiling module Altera_UP_SYNC_FIFO
+# 
+# Top level modules:
+# 	Altera_UP_SYNC_FIFO
+# End time: 07:25:09 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:09 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_and_video_config.v 
+# -- Compiling module audio_and_video_config
+# ** Warning: ./starterkit/audio_and_video_config.v(75): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	audio_and_video_config
+# End time: 07:25:09 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:09 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 07:25:10 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:25:10 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_driver.sv 
+# -- Compiling module audio_driver
+# 
+# Top level modules:
+# 	audio_driver
+# End time: 07:25:11 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 07:25:12 on Mar 07,2025, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 27
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:25:12 on Mar 07,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.kick_hit
+# Loading work.input_airlock
+# Loading work.counter
+# Loading work.kick_lookup
+# Loading work.snare_hit
+# Loading work.snare_lookup
+# Loading work.square_generator
+# Loading work.period_table
+# Loading work.seg7
+# Loading work.input_sanitize
+# Loading work.controller
+# Loading work.activate_flop
+# Loading work.audio_driver
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.scfifo
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.Altera_UP_Audio_Out_Serializer
+# ** Warning: (vsim-3015) ./kick_hit.sv(14): [PCDPC] - Port size (16) does not match connection size (24) for port 'out'. The port definition is at: ./kick_lookup.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/kick/lookup_table File: ./kick_lookup.sv
+# ** Warning: (vsim-3015) ./snare_hit.sv(12): [PCDPC] - Port size (16) does not match connection size (24) for port 'out'. The port definition is at: ./snare_lookup.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/snare/lookup_table File: ./snare_lookup.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(43): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(43): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth/square_counter File: ./counter.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(44): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2 File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(44): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2/square_counter File: ./counter.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(46): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_inbeat File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(47): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_ones File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(48): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_tens File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(49): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_hundreds File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'enabled'. The port definition is at: ./controller.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/instrument_controller File: ./controller.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'activate'. The port definition is at: ./activate_flop.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/activate_logic File: ./activate_flop.sv
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 35580 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: geeoon  Hostname: EE-361PC08  ProcessID: 25772
+#           Attempting to use alternate WLF file "./wlftgwtxg6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftgwtxg6
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {U:/ee 271/labs/lab 8/lab 8 files/DE1_SoC_wave.do}
+do wolfson.do
+# 0
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/../../dspba/Libraries/vhdl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:50 on Mar 07,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv ./activate_flop.sv ./clock_divider.sv ./controller.sv ./counter.sv ./frequency_table.sv ./hit_signal.sv ./input_airlock.sv ./input_sanitize.sv ./kick_hit.sv ./kick_lookup.sv ./mgmt_kids_lead.sv ./period_table.sv ./sawtooth_generator.sv ./seg7.sv ./seg7two.sv ./sine_generator.sv ./sine_lookup.sv ./snare_hit.sv ./snare_lookup.sv ./square_generator.sv ./triangle_generator.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module activate_flop
+# -- Compiling module clock_divider
+# -- Compiling module controller
+# ** Warning: ./controller.sv(61): (vlog-2597) '3200000000' is being treated as 32-bit signed integer and will overflow.
+# -- Compiling module controller_testbench
+# -- Compiling module counter
+# -- Compiling module counter_testbench
+# -- Compiling module frequency_table
+# -- Compiling module hit_signal
+# -- Compiling module hit_signal_testbench
+# -- Compiling module input_airlock
+# -- Compiling module input_airlock_testbench
+# -- Compiling module input_sanitize
+# -- Compiling module kick_hit
+# -- Compiling module kick_hit_testbench
+# -- Compiling module kick_lookup
+# -- Compiling module mgmt_kids_lead
+# -- Compiling module period_table
+# -- Compiling module sawtooth_generator
+# -- Compiling module sawtooth_generator_testbench
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# -- Compiling module seg7two
+# -- Compiling module seg7two_testbench
+# -- Compiling module sine_generator
+# -- Compiling module sine_generator_testbench
+# -- Compiling module sine_lookup
+# -- Compiling module snare_hit
+# -- Compiling module snare_lookup
+# -- Compiling module square_generator
+# -- Compiling module square_generator_testbench
+# -- Compiling module triangle_generator
+# -- Compiling module triangle_generator_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	clock_divider
+# 	controller_testbench
+# 	counter_testbench
+# 	frequency_table
+# 	hit_signal_testbench
+# 	input_airlock_testbench
+# 	kick_hit_testbench
+# 	mgmt_kids_lead
+# 	sawtooth_generator_testbench
+# 	seg7_testbench
+# 	seg7two_testbench
+# 	sine_generator_testbench
+# 	square_generator_testbench
+# 	triangle_generator_testbench
+# End time: 07:27:53 on Mar 07,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:53 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator.v 
+# -- Compiling module xck_generator
+# 
+# Top level modules:
+# 	xck_generator
+# End time: 07:27:57 on Mar 07,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:57 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator/xck_generator_0002.v 
+# -- Compiling module xck_generator_0002
+# 
+# Top level modules:
+# 	xck_generator_0002
+# End time: 07:27:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:57 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Bit_Counter.v 
+# -- Compiling module Altera_UP_Audio_Bit_Counter
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Bit_Counter
+# End time: 07:27:58 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:58 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_In_Deserializer.v 
+# -- Compiling module Altera_UP_Audio_In_Deserializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_In_Deserializer
+# End time: 07:27:58 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:58 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Out_Serializer.v 
+# -- Compiling module Altera_UP_Audio_Out_Serializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Out_Serializer
+# End time: 07:27:58 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:58 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Clock_Edge.v 
+# -- Compiling module Altera_UP_Clock_Edge
+# 
+# Top level modules:
+# 	Altera_UP_Clock_Edge
+# End time: 07:27:59 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:59 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C.v 
+# -- Compiling module Altera_UP_I2C
+# 
+# Top level modules:
+# 	Altera_UP_I2C
+# End time: 07:27:59 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:59 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_AV_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_AV_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_AV_Auto_Initialize
+# End time: 07:27:59 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:59 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_DC_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_DC_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_DC_Auto_Initialize
+# End time: 07:28:00 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:28:00 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_LCM_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_LCM_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_LCM_Auto_Initialize
+# End time: 07:28:01 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:28:01 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Slow_Clock_Generator.v 
+# -- Compiling module Altera_UP_Slow_Clock_Generator
+# 
+# Top level modules:
+# 	Altera_UP_Slow_Clock_Generator
+# End time: 07:28:01 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:28:01 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_SYNC_FIFO.v 
+# -- Compiling module Altera_UP_SYNC_FIFO
+# 
+# Top level modules:
+# 	Altera_UP_SYNC_FIFO
+# End time: 07:28:01 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:28:01 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_and_video_config.v 
+# -- Compiling module audio_and_video_config
+# ** Warning: ./starterkit/audio_and_video_config.v(75): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	audio_and_video_config
+# End time: 07:28:02 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:28:02 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 07:28:02 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:28:02 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_driver.sv 
+# -- Compiling module audio_driver
+# 
+# Top level modules:
+# 	audio_driver
+# End time: 07:28:02 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:28:04 on Mar 07,2025, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 27
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:28:04 on Mar 07,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.kick_hit
+# Loading work.input_airlock
+# Loading work.counter
+# Loading work.kick_lookup
+# Loading work.snare_hit
+# Loading work.snare_lookup
+# Loading work.square_generator
+# Loading work.period_table
+# Loading work.seg7
+# Loading work.input_sanitize
+# Loading work.controller
+# Loading work.activate_flop
+# Loading work.audio_driver
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.scfifo
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.Altera_UP_Audio_Out_Serializer
+# ** Warning: (vsim-3015) ./kick_hit.sv(14): [PCDPC] - Port size (16) does not match connection size (24) for port 'out'. The port definition is at: ./kick_lookup.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/kick/lookup_table File: ./kick_lookup.sv
+# ** Warning: (vsim-3015) ./snare_hit.sv(12): [PCDPC] - Port size (16) does not match connection size (24) for port 'out'. The port definition is at: ./snare_lookup.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/snare/lookup_table File: ./snare_lookup.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(43): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(43): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth/square_counter File: ./counter.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(44): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2 File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(44): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2/square_counter File: ./counter.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(46): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_inbeat File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(47): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_ones File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(48): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_tens File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(49): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_hundreds File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'enabled'. The port definition is at: ./controller.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/instrument_controller File: ./controller.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'activate'. The port definition is at: ./activate_flop.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/activate_logic File: ./activate_flop.sv
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 35580 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: geeoon  Hostname: EE-361PC08  ProcessID: 25772
+#           Attempting to use alternate WLF file "./wlft1bvexn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1bvexn
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./DE1_SoC.sv(230)
+#    Time: 100004350 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at ./DE1_SoC.sv line 230
+do wolfson.do
+# 0
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/../../dspba/Libraries/vhdl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:35 on Mar 07,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv ./activate_flop.sv ./clock_divider.sv ./controller.sv ./counter.sv ./frequency_table.sv ./hit_signal.sv ./input_airlock.sv ./input_sanitize.sv ./kick_hit.sv ./kick_lookup.sv ./mgmt_kids_lead.sv ./period_table.sv ./sawtooth_generator.sv ./seg7.sv ./seg7two.sv ./sine_generator.sv ./sine_lookup.sv ./snare_hit.sv ./snare_lookup.sv ./square_generator.sv ./triangle_generator.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module activate_flop
+# -- Compiling module clock_divider
+# -- Compiling module controller
+# ** Warning: ./controller.sv(61): (vlog-2597) '3200000000' is being treated as 32-bit signed integer and will overflow.
+# -- Compiling module controller_testbench
+# -- Compiling module counter
+# -- Compiling module counter_testbench
+# -- Compiling module frequency_table
+# -- Compiling module hit_signal
+# -- Compiling module hit_signal_testbench
+# -- Compiling module input_airlock
+# -- Compiling module input_airlock_testbench
+# -- Compiling module input_sanitize
+# -- Compiling module kick_hit
+# -- Compiling module kick_hit_testbench
+# -- Compiling module kick_lookup
+# -- Compiling module mgmt_kids_lead
+# -- Compiling module period_table
+# -- Compiling module sawtooth_generator
+# -- Compiling module sawtooth_generator_testbench
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# -- Compiling module seg7two
+# -- Compiling module seg7two_testbench
+# -- Compiling module sine_generator
+# -- Compiling module sine_generator_testbench
+# -- Compiling module sine_lookup
+# -- Compiling module snare_hit
+# -- Compiling module snare_lookup
+# -- Compiling module square_generator
+# -- Compiling module square_generator_testbench
+# -- Compiling module triangle_generator
+# -- Compiling module triangle_generator_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	clock_divider
+# 	controller_testbench
+# 	counter_testbench
+# 	frequency_table
+# 	hit_signal_testbench
+# 	input_airlock_testbench
+# 	kick_hit_testbench
+# 	mgmt_kids_lead
+# 	sawtooth_generator_testbench
+# 	seg7_testbench
+# 	seg7two_testbench
+# 	sine_generator_testbench
+# 	square_generator_testbench
+# 	triangle_generator_testbench
+# End time: 07:40:37 on Mar 07,2025, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:37 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator.v 
+# -- Compiling module xck_generator
+# 
+# Top level modules:
+# 	xck_generator
+# End time: 07:40:38 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:38 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator/xck_generator_0002.v 
+# -- Compiling module xck_generator_0002
+# 
+# Top level modules:
+# 	xck_generator_0002
+# End time: 07:40:38 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:38 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Bit_Counter.v 
+# -- Compiling module Altera_UP_Audio_Bit_Counter
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Bit_Counter
+# End time: 07:40:38 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:38 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_In_Deserializer.v 
+# -- Compiling module Altera_UP_Audio_In_Deserializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_In_Deserializer
+# End time: 07:40:39 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:39 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Out_Serializer.v 
+# -- Compiling module Altera_UP_Audio_Out_Serializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Out_Serializer
+# End time: 07:40:39 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:39 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Clock_Edge.v 
+# -- Compiling module Altera_UP_Clock_Edge
+# 
+# Top level modules:
+# 	Altera_UP_Clock_Edge
+# End time: 07:40:39 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:39 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C.v 
+# -- Compiling module Altera_UP_I2C
+# 
+# Top level modules:
+# 	Altera_UP_I2C
+# End time: 07:40:39 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:40 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_AV_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_AV_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_AV_Auto_Initialize
+# End time: 07:40:40 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:40 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_DC_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_DC_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_DC_Auto_Initialize
+# End time: 07:40:41 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:41 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_LCM_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_LCM_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_LCM_Auto_Initialize
+# End time: 07:40:41 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:41 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Slow_Clock_Generator.v 
+# -- Compiling module Altera_UP_Slow_Clock_Generator
+# 
+# Top level modules:
+# 	Altera_UP_Slow_Clock_Generator
+# End time: 07:40:41 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:41 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_SYNC_FIFO.v 
+# -- Compiling module Altera_UP_SYNC_FIFO
+# 
+# Top level modules:
+# 	Altera_UP_SYNC_FIFO
+# End time: 07:40:42 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:42 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_and_video_config.v 
+# -- Compiling module audio_and_video_config
+# ** Warning: ./starterkit/audio_and_video_config.v(75): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	audio_and_video_config
+# End time: 07:40:42 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:42 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 07:40:42 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:43 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_driver.sv 
+# -- Compiling module audio_driver
+# 
+# Top level modules:
+# 	audio_driver
+# End time: 07:40:43 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:40:45 on Mar 07,2025, Elapsed time: 0:12:41
+# Errors: 0, Warnings: 27
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:40:45 on Mar 07,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.kick_hit
+# Loading work.input_airlock
+# Loading work.counter
+# Loading work.kick_lookup
+# Loading work.snare_hit
+# Loading work.snare_lookup
+# Loading work.square_generator
+# Loading work.period_table
+# Loading work.seg7
+# Loading work.input_sanitize
+# Loading work.controller
+# Loading work.activate_flop
+# Loading work.audio_driver
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.scfifo
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.Altera_UP_Audio_Out_Serializer
+# ** Warning: (vsim-3015) ./kick_hit.sv(14): [PCDPC] - Port size (16) does not match connection size (24) for port 'out'. The port definition is at: ./kick_lookup.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/kick/lookup_table File: ./kick_lookup.sv
+# ** Warning: (vsim-3015) ./snare_hit.sv(12): [PCDPC] - Port size (16) does not match connection size (24) for port 'out'. The port definition is at: ./snare_lookup.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/snare/lookup_table File: ./snare_lookup.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(43): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(43): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth/square_counter File: ./counter.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(44): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2 File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(44): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2/square_counter File: ./counter.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(46): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_inbeat File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(47): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_ones File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(48): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_tens File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(49): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_hundreds File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'enabled'. The port definition is at: ./controller.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/instrument_controller File: ./controller.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'activate'. The port definition is at: ./activate_flop.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/activate_logic File: ./activate_flop.sv
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 35580 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: geeoon  Hostname: EE-361PC08  ProcessID: 25772
+#           Attempting to use alternate WLF file "./wlft2rt3bh".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2rt3bh
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do wolfson.do
+# 0
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/../../dspba/Libraries/vhdl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:08 on Mar 07,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv ./activate_flop.sv ./clock_divider.sv ./controller.sv ./counter.sv ./frequency_table.sv ./hit_signal.sv ./input_airlock.sv ./input_sanitize.sv ./kick_hit.sv ./kick_lookup.sv ./mgmt_kids_lead.sv ./period_table.sv ./sawtooth_generator.sv ./seg7.sv ./seg7two.sv ./sine_generator.sv ./sine_lookup.sv ./snare_hit.sv ./snare_lookup.sv ./square_generator.sv ./triangle_generator.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module activate_flop
+# -- Compiling module clock_divider
+# -- Compiling module controller
+# ** Warning: ./controller.sv(61): (vlog-2597) '3200000000' is being treated as 32-bit signed integer and will overflow.
+# -- Compiling module controller_testbench
+# -- Compiling module counter
+# -- Compiling module counter_testbench
+# -- Compiling module frequency_table
+# -- Compiling module hit_signal
+# -- Compiling module hit_signal_testbench
+# -- Compiling module input_airlock
+# -- Compiling module input_airlock_testbench
+# -- Compiling module input_sanitize
+# -- Compiling module kick_hit
+# -- Compiling module kick_hit_testbench
+# -- Compiling module kick_lookup
+# -- Compiling module mgmt_kids_lead
+# -- Compiling module period_table
+# -- Compiling module sawtooth_generator
+# -- Compiling module sawtooth_generator_testbench
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# -- Compiling module seg7two
+# -- Compiling module seg7two_testbench
+# -- Compiling module sine_generator
+# -- Compiling module sine_generator_testbench
+# -- Compiling module sine_lookup
+# -- Compiling module snare_hit
+# -- Compiling module snare_lookup
+# -- Compiling module square_generator
+# -- Compiling module square_generator_testbench
+# -- Compiling module triangle_generator
+# -- Compiling module triangle_generator_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	clock_divider
+# 	controller_testbench
+# 	counter_testbench
+# 	frequency_table
+# 	hit_signal_testbench
+# 	input_airlock_testbench
+# 	kick_hit_testbench
+# 	mgmt_kids_lead
+# 	sawtooth_generator_testbench
+# 	seg7_testbench
+# 	seg7two_testbench
+# 	sine_generator_testbench
+# 	square_generator_testbench
+# 	triangle_generator_testbench
+# End time: 07:51:12 on Mar 07,2025, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:12 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator.v 
+# -- Compiling module xck_generator
+# 
+# Top level modules:
+# 	xck_generator
+# End time: 07:51:15 on Mar 07,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:15 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator/xck_generator_0002.v 
+# -- Compiling module xck_generator_0002
+# 
+# Top level modules:
+# 	xck_generator_0002
+# End time: 07:51:16 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:16 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Bit_Counter.v 
+# -- Compiling module Altera_UP_Audio_Bit_Counter
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Bit_Counter
+# End time: 07:51:16 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:16 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_In_Deserializer.v 
+# -- Compiling module Altera_UP_Audio_In_Deserializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_In_Deserializer
+# End time: 07:51:16 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:17 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Out_Serializer.v 
+# -- Compiling module Altera_UP_Audio_Out_Serializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Out_Serializer
+# End time: 07:51:17 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:17 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Clock_Edge.v 
+# -- Compiling module Altera_UP_Clock_Edge
+# 
+# Top level modules:
+# 	Altera_UP_Clock_Edge
+# End time: 07:51:17 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:17 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C.v 
+# -- Compiling module Altera_UP_I2C
+# 
+# Top level modules:
+# 	Altera_UP_I2C
+# End time: 07:51:17 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:17 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_AV_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_AV_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_AV_Auto_Initialize
+# End time: 07:51:18 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:18 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_DC_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_DC_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_DC_Auto_Initialize
+# End time: 07:51:18 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:18 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_LCM_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_LCM_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_LCM_Auto_Initialize
+# End time: 07:51:19 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:19 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Slow_Clock_Generator.v 
+# -- Compiling module Altera_UP_Slow_Clock_Generator
+# 
+# Top level modules:
+# 	Altera_UP_Slow_Clock_Generator
+# End time: 07:51:19 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:19 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_SYNC_FIFO.v 
+# -- Compiling module Altera_UP_SYNC_FIFO
+# 
+# Top level modules:
+# 	Altera_UP_SYNC_FIFO
+# End time: 07:51:19 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:19 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_and_video_config.v 
+# -- Compiling module audio_and_video_config
+# ** Warning: ./starterkit/audio_and_video_config.v(75): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	audio_and_video_config
+# End time: 07:51:19 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:19 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 07:51:20 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:51:20 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_driver.sv 
+# -- Compiling module audio_driver
+# 
+# Top level modules:
+# 	audio_driver
+# End time: 07:51:20 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:51:21 on Mar 07,2025, Elapsed time: 0:10:36
+# Errors: 0, Warnings: 27
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:51:21 on Mar 07,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.kick_hit
+# Loading work.input_airlock
+# Loading work.counter
+# Loading work.kick_lookup
+# Loading work.snare_hit
+# Loading work.snare_lookup
+# Loading work.square_generator
+# Loading work.period_table
+# Loading work.seg7
+# Loading work.input_sanitize
+# Loading work.controller
+# Loading work.activate_flop
+# Loading work.audio_driver
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.scfifo
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.Altera_UP_Audio_Out_Serializer
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(43): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(43): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth/square_counter File: ./counter.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(44): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2 File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(44): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2/square_counter File: ./counter.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(46): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_inbeat File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(47): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_ones File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(48): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_tens File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(49): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_hundreds File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'enabled'. The port definition is at: ./controller.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/instrument_controller File: ./controller.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'activate'. The port definition is at: ./activate_flop.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/activate_logic File: ./activate_flop.sv
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 35580 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: geeoon  Hostname: EE-361PC08  ProcessID: 25772
+#           Attempting to use alternate WLF file "./wlft5j7dzk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft5j7dzk
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {U:/ee 271/labs/lab 8/lab 8 files/DE1_SoC_wave.do}
+do wolfson.do
+# 0
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib
+# C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/../../dspba/Libraries/vhdl
+# ** Warning: (vlib-34) Library already exists at "work".
+# 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:51 on Mar 07,2025
+# vlog -reportprogress 300 ./DE1_SoC.sv ./activate_flop.sv ./clock_divider.sv ./controller.sv ./counter.sv ./frequency_table.sv ./hit_signal.sv ./input_airlock.sv ./input_sanitize.sv ./kick_hit.sv ./kick_lookup.sv ./mgmt_kids_lead.sv ./period_table.sv ./sawtooth_generator.sv ./seg7.sv ./seg7two.sv ./sine_generator.sv ./sine_lookup.sv ./snare_hit.sv ./snare_lookup.sv ./square_generator.sv ./triangle_generator.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module activate_flop
+# -- Compiling module clock_divider
+# -- Compiling module controller
+# ** Warning: ./controller.sv(61): (vlog-2597) '3200000000' is being treated as 32-bit signed integer and will overflow.
+# -- Compiling module controller_testbench
+# -- Compiling module counter
+# -- Compiling module counter_testbench
+# -- Compiling module frequency_table
+# -- Compiling module hit_signal
+# -- Compiling module hit_signal_testbench
+# -- Compiling module input_airlock
+# -- Compiling module input_airlock_testbench
+# -- Compiling module input_sanitize
+# -- Compiling module kick_hit
+# -- Compiling module kick_hit_testbench
+# -- Compiling module kick_lookup
+# -- Compiling module mgmt_kids_lead
+# -- Compiling module period_table
+# -- Compiling module sawtooth_generator
+# -- Compiling module sawtooth_generator_testbench
+# -- Compiling module seg7
+# -- Compiling module seg7_testbench
+# -- Compiling module seg7two
+# -- Compiling module seg7two_testbench
+# -- Compiling module sine_generator
+# -- Compiling module sine_generator_testbench
+# -- Compiling module sine_lookup
+# -- Compiling module snare_hit
+# -- Compiling module snare_lookup
+# -- Compiling module square_generator
+# -- Compiling module square_generator_testbench
+# -- Compiling module triangle_generator
+# -- Compiling module triangle_generator_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	clock_divider
+# 	controller_testbench
+# 	counter_testbench
+# 	frequency_table
+# 	hit_signal_testbench
+# 	input_airlock_testbench
+# 	kick_hit_testbench
+# 	mgmt_kids_lead
+# 	sawtooth_generator_testbench
+# 	seg7_testbench
+# 	seg7two_testbench
+# 	sine_generator_testbench
+# 	square_generator_testbench
+# 	triangle_generator_testbench
+# End time: 11:23:54 on Mar 07,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:54 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator.v 
+# -- Compiling module xck_generator
+# 
+# Top level modules:
+# 	xck_generator
+# End time: 11:23:54 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:54 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/xck_generator/xck_generator_0002.v 
+# -- Compiling module xck_generator_0002
+# 
+# Top level modules:
+# 	xck_generator_0002
+# End time: 11:23:54 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:54 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Bit_Counter.v 
+# -- Compiling module Altera_UP_Audio_Bit_Counter
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Bit_Counter
+# End time: 11:23:54 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:54 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_In_Deserializer.v 
+# -- Compiling module Altera_UP_Audio_In_Deserializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_In_Deserializer
+# End time: 11:23:55 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:55 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Audio_Out_Serializer.v 
+# -- Compiling module Altera_UP_Audio_Out_Serializer
+# 
+# Top level modules:
+# 	Altera_UP_Audio_Out_Serializer
+# End time: 11:23:55 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:55 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Clock_Edge.v 
+# -- Compiling module Altera_UP_Clock_Edge
+# 
+# Top level modules:
+# 	Altera_UP_Clock_Edge
+# End time: 11:23:55 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:55 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C.v 
+# -- Compiling module Altera_UP_I2C
+# 
+# Top level modules:
+# 	Altera_UP_I2C
+# End time: 11:23:56 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:56 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_AV_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_AV_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_AV_Auto_Initialize
+# End time: 11:23:56 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:56 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_DC_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_DC_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_DC_Auto_Initialize
+# End time: 11:23:56 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:56 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_I2C_LCM_Auto_Initialize.v 
+# -- Compiling module Altera_UP_I2C_LCM_Auto_Initialize
+# 
+# Top level modules:
+# 	Altera_UP_I2C_LCM_Auto_Initialize
+# End time: 11:23:56 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:56 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_Slow_Clock_Generator.v 
+# -- Compiling module Altera_UP_Slow_Clock_Generator
+# 
+# Top level modules:
+# 	Altera_UP_Slow_Clock_Generator
+# End time: 11:23:57 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:57 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/Altera_UP_SYNC_FIFO.v 
+# -- Compiling module Altera_UP_SYNC_FIFO
+# 
+# Top level modules:
+# 	Altera_UP_SYNC_FIFO
+# End time: 11:23:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:57 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_and_video_config.v 
+# -- Compiling module audio_and_video_config
+# ** Warning: ./starterkit/audio_and_video_config.v(75): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	audio_and_video_config
+# End time: 11:23:57 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:57 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_codec.v 
+# -- Compiling module audio_codec
+# 
+# Top level modules:
+# 	audio_codec
+# End time: 11:23:58 on Mar 07,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 11:23:58 on Mar 07,2025
+# vlog -reportprogress 300 ./starterkit/audio_driver.sv 
+# -- Compiling module audio_driver
+# 
+# Top level modules:
+# 	audio_driver
+# End time: 11:23:58 on Mar 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:23:59 on Mar 07,2025, Elapsed time: 3:32:38
+# Errors: 0, Warnings: 25
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 11:23:59 on Mar 07,2025
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.kick_hit
+# Loading work.input_airlock
+# Loading work.counter
+# Loading work.kick_lookup
+# Loading work.snare_hit
+# Loading work.snare_lookup
+# Loading work.square_generator
+# Loading work.period_table
+# Loading work.seg7
+# Loading work.input_sanitize
+# Loading work.controller
+# Loading work.activate_flop
+# Loading work.audio_driver
+# Loading work.audio_and_video_config
+# Loading work.Altera_UP_Slow_Clock_Generator
+# Loading work.Altera_UP_I2C_AV_Auto_Initialize
+# Loading work.Altera_UP_I2C
+# Loading work.audio_codec
+# Loading work.Altera_UP_Clock_Edge
+# Loading work.Altera_UP_Audio_In_Deserializer
+# Loading work.Altera_UP_Audio_Bit_Counter
+# Loading work.Altera_UP_SYNC_FIFO
+# Loading work.scfifo
+# Loading work.ALTERA_DEVICE_FAMILIES
+# Loading work.Altera_UP_Audio_Out_Serializer
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(43): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(43): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth/square_counter File: ./counter.sv
+# ** Warning: (vsim-3017) ./DE1_SoC.sv(44): [TFMPC] - Too few port connections. Expected 7, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2 File: ./square_generator.sv
+# ** Warning: (vsim-3722) ./DE1_SoC.sv(44): [TFMPC] - Missing connection for port 'frequency'.
+# ** Warning: (vsim-3015) ./square_generator.sv(13): [PCDPC] - Port size (32) does not match connection size (24) for port 'limit'. The port definition is at: ./counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/synth2/square_counter File: ./counter.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(46): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_inbeat File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(47): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_ones File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(48): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_tens File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(49): [PCDPC] - Port size (5) does not match connection size (10) for port 'bcd'. The port definition is at: ./seg7.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/position_hundreds File: ./seg7.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(65): [PCDPC] - Port size (1) does not match connection size (32) for port 'enabled'. The port definition is at: ./controller.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/instrument_controller File: ./controller.sv
+# ** Warning: (vsim-3015) ./DE1_SoC.sv(67): [PCDPC] - Port size (1) does not match connection size (32) for port 'activate'. The port definition is at: ./activate_flop.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/activate_logic File: ./activate_flop.sv
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_In_Deserializer/Audio_In_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Left_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Too few port connections. Expected 13, found 12.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut/wolfson/codec/Audio_Out_Serializer/Audio_Out_Right_Channel_FIFO/Sync_FIFO File: C:/intelFPGA_lite/17.0/quartus/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) ./starterkit/Altera_UP_SYNC_FIFO.v(127): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 35580 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: geeoon  Hostname: EE-361PC08  ProcessID: 25772
+#           Attempting to use alternate WLF file "./wlft0z0fhk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft0z0fhk
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# End time: 12:36:00 on Mar 07,2025, Elapsed time: 1:12:01
+# Errors: 0, Warnings: 23

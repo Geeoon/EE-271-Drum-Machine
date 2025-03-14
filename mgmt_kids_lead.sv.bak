@@ -1,0 +1,5 @@
+module mgmt_kids_lead();
+	input logic CLOCK_50, reset, hit;
+	input logic [7:0] volume;
+	output logic [23:0] signal_out;
+endmodule

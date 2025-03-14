@@ -1,0 +1,4 @@
+module triangle_wave(CLOCK_50, reset, output);
+
+
+endmodule

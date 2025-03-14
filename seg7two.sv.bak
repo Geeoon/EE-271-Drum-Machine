@@ -1,0 +1,11 @@
+module seg7two (SW, HEX0, HEX1);
+	input logic [7:0] SW;
+	output logic [6:0] HEX0, HEX1;
+	logic [6:0] mid0, mid1;
+	
+	seg7 segegment0(SW[7:4], mid0);
+	seg7 segment1(SW[3:0], mid1);
+	
+	assign HEX0 = ~mid0;
+	assign HEX1 = ~mid1;
+endmodule

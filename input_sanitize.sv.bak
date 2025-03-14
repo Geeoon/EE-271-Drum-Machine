@@ -1,0 +1,4 @@
+// prevents metastability of inputs
+module input_sanitize();
+
+endmodule

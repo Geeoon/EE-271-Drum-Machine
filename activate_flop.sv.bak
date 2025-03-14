@@ -1,0 +1,9 @@
+module activate_flop(CLOCK_50, reset, in, activate, out);
+	input logic CLOCK_50, reset, in, activate;
+	output logic out;
+
+	always_ff @(posedge CLOCK_50) begin
+	
+	end
+
+endmodule

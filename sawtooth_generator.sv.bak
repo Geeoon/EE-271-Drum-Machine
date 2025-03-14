@@ -1,0 +1,3 @@
+module sawtooth_generator(parameter CLKS_PER_SECOND, parameter BOUND=24'sb011111111111100000000000)(CLOCK_50, reset, volume, frequency, signal_out);
+
+endmodule

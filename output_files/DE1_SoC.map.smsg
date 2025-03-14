@@ -1,0 +1,21 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10273): Verilog HDL warning at period_table.sv(21): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/period_table.sv Line: 21
+Warning (10273): Verilog HDL warning at period_table.sv(38): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/period_table.sv Line: 38
+Warning (10273): Verilog HDL warning at period_table.sv(55): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/period_table.sv Line: 55
+Warning (10273): Verilog HDL warning at period_table.sv(72): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/period_table.sv Line: 72
+Warning (10273): Verilog HDL warning at period_table.sv(89): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/period_table.sv Line: 89
+Warning (10273): Verilog HDL warning at period_table.sv(106): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/period_table.sv Line: 106
+Warning (10273): Verilog HDL warning at period_table.sv(123): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/period_table.sv Line: 123
+Warning (10273): Verilog HDL warning at period_table.sv(140): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/period_table.sv Line: 140
+Warning (10273): Verilog HDL warning at period_table.sv(143): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/period_table.sv Line: 143
+Warning (10273): Verilog HDL warning at seg7.sv(27): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/seg7.sv Line: 27
+Warning (10273): Verilog HDL warning at frequency_table.sv(21): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/frequency_table.sv Line: 21
+Warning (10273): Verilog HDL warning at frequency_table.sv(38): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/frequency_table.sv Line: 38
+Warning (10273): Verilog HDL warning at frequency_table.sv(55): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/frequency_table.sv Line: 55
+Warning (10273): Verilog HDL warning at frequency_table.sv(72): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/frequency_table.sv Line: 72
+Warning (10273): Verilog HDL warning at frequency_table.sv(89): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/frequency_table.sv Line: 89
+Warning (10273): Verilog HDL warning at frequency_table.sv(106): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/frequency_table.sv Line: 106
+Warning (10273): Verilog HDL warning at frequency_table.sv(123): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/frequency_table.sv Line: 123
+Warning (10273): Verilog HDL warning at frequency_table.sv(140): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/frequency_table.sv Line: 140
+Warning (10273): Verilog HDL warning at frequency_table.sv(143): extended using "x" or "z" File: U:/ee 271/labs/lab 8/lab 8 files/frequency_table.sv Line: 143
+Warning (10034): Output port "LEDR[8..4]" at DE1_SoC.sv(7) has no driver File: U:/ee 271/labs/lab 8/lab 8 files/DE1_SoC.sv Line: 7

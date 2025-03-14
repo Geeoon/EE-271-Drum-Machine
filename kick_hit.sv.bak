@@ -1,0 +1,5 @@
+module kick_hit(CLOCK_50, reset, hit, signal_out);
+	input logic CLOCK_50, reset;
+	
+
+endmodule
